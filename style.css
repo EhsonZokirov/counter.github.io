@@ -1,0 +1,33 @@
+body {
+  background-color: grey;
+}
+.body {
+  text-align: center;
+}
+#count {
+  font-size: 100px;
+  text-align: center;
+  display: block;
+}
+
+#plusButton {
+  font-size: 30px;
+  width: 150px;
+  height: 20vh;
+  cursor: pointer;
+}
+#plusButton:active {
+  /* font-size: 25px; */
+  width: 145px;
+}
+
+#minusButton {
+  font-size: 30px;
+  width: 50px;
+}
+#resetButton {
+  font-size: 14px;
+  cursor: pointer;
+  background-color: seagreen;
+  width: 40px;
+}
